@@ -1,0 +1,49 @@
+.center-by-absolute-margin {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.center-by-pseudo-class::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.center-by-line-height {
+  height: 200px;
+  line-height: 200;
+}
+
+.center-by-table {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-by-flex {
+  display: flex;
+  align-items: center;
+}
+
+.center-by-grid {
+  display: grid;
+  align-items: center;
+}
+
+.center-by-absolute-parent {
+  position: relative;
+}
+
+.center-by-absolute-child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-by-calc {
+  height: 70px;
+  position: relative;
+  top: calc(50% - 35px);
+}

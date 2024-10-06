@@ -1,0 +1,42 @@
+.center-by-fixed-width {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.center-by-text-align {
+  text-align: center;
+}
+
+.center-by-unfixed-width {
+  text-align: center;
+}
+
+.center-by-table {
+  display: table;
+  margin: 0 auto;
+}
+
+.center-by-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.center-by-grid {
+  display: grid;
+  justify-content: center;
+}
+
+.center-by-absolute-parent {
+  position: relative;
+}
+
+.center-by-absolute-child {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-by-calc {
+  width: 70px;
+  margin-left: calc(50% - 35px);
+}

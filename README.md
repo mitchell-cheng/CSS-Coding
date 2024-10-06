@@ -1,2 +1,5 @@
 # CSS-Problems
-Record the CSS problems I have solved.
+CSS problems I solved.
+
+* Centering
+* Layout
