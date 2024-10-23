@@ -1,0 +1,80 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-container .left {
+  width: 200px;
+  background-color: tomato;
+}
+
+.flex-container .middle {
+  flex: 1;
+  background-color: blanchedalmond;
+}
+
+.flex-container .right {
+  width: 200px;
+  background-color: aqua;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+}
+
+.grid-container .left {
+  background-color: tomato;
+}
+
+.grid-container .middle {
+  background-color: blanchedalmond;
+}
+
+.grid-container .right {
+  background-color: aqua;
+}
+
+.absolute-container {
+  position: relative;
+}
+
+.absolute-container .left,
+.absolute-container .right {
+  position: absolute;
+  width: 200px;
+  top: 0;
+}
+
+.absolute-container .left {
+  left: 0;
+  background-color: tomato;
+}
+
+.absolute-container .right {
+  right: 0;
+  background-color: aqua;
+}
+
+.absolute-container .middle {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: blanchedalmond;
+}
+
+.float-container .left {
+  width: 200px;
+  float: left;
+  background-color: tomato;
+}
+
+.float-container .right {
+  width: 200px;
+  float: right;
+  background-color: aqua;
+}
+
+.float-container .middle {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: blanchedalmond;
+}

@@ -8,7 +8,7 @@
 * Two-columns
 * Three-columns
 * Fixed navigation
-* Holy Grails
+* Holy Grail
 
 ## Shapes
 * Square
