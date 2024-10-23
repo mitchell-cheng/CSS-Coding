@@ -1,4 +1,4 @@
-# CSS-Problems
+# CSS-Coding
 
 ## Centering
 * Vertically centered
@@ -23,3 +23,6 @@
 ## Overflow
 * One line
 * Multiple lines
+
+## Float
+* Clear floating
