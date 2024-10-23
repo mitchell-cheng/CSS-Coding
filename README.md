@@ -26,3 +26,6 @@
 
 ## Float
 * Clear floating
+
+## Hiding
+* Hiding elements
