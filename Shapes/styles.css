@@ -1,0 +1,58 @@
+.square {
+  width: 100px;
+  height: 100px;
+  border-top: 50px solid red;
+  border-bottom: 50px solid blue;
+  border-right: 50px solid green;
+  border-left: 50px solid orange;
+}
+
+.trapezoidal {
+  width: 100px;
+  height: 100px;
+  border: 50px solid transparent;
+  border-bottom-color: tomato;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: tomato;
+}
+
+.sector {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: tomato;
+  border-radius: 50%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.half-circle {
+  width: 100px;
+  height: 50px;
+  background-color: tomato;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.fixed-width-height-ratio {
+  padding-top: 56.25%;
+  background-color: blue;
+  width: 100%;
+}
+
+.half-one-px-line {
+  background-color: aqua;
+  border-bottom: 1px solid black;
+  transform: scaleY(0.5) scaleX(0.5);
+  transform-origin: 0 0;
+}
